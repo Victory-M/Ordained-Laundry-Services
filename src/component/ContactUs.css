@@ -1,0 +1,77 @@
+.contact-us{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    max-width: 1040px;
+    gap: 2rem;
+    margin: 3rem auto;
+    padding: 2rem; 
+}
+.contact-details h2{
+   color: #c71585;
+   margin-bottom: 1rem;
+}
+.contact-details li{
+   margin: 0.8rem;
+   font-size: 1.2rem;
+   display: flex;
+}
+.contact-details{
+   padding: 2rem;
+}
+
+.working-hours{
+    margin-top:2rem;
+}
+.working-hours p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.working-hours li{
+    margin-left: 2rem;
+}
+.contact-form{
+   width: 100%; 
+   height: 70vh;
+   padding: 1rem;
+   background-color: rgba(0, 0, 0, 0.2);
+}
+.contact-form input,textarea{
+    padding:  6px;
+    margin: 6px 0; 
+    border: 1px solid lightpink;
+    font-size: 1rem;
+    outline: none;
+}
+.contact-form .half{
+   display: flex;
+   gap: 0.3rem;
+}
+.half input{
+  width: 55%;
+ height: 50px;
+}
+.email{
+    width: 100%;
+     height: 50px;
+}
+textarea{
+    min-width: 100%;
+    height: 20vh;
+    display: block;
+}
+.button{
+    width: 100%;
+    height: 6.5vh;
+    cursor: pointer;
+}
+.button:hover{
+   background-color: #8a075a;
+}
+
+@media screen and (max-width:740px){
+  .contact-us{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 90%;
+}  
+}
