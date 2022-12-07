@@ -7,8 +7,10 @@ import Iron from "../asset/steaming iron.jpg"
 
 const Benefits = () => {
   return (
-      <div className="benefits">
-          <div className="benefits-container">
+    <div className="benefits">
+           
+      <div className="benefits-container">
+
                 <div className=" benefit-card">
                   <div className="img-container">
                       <img src={Phone} alt="" />

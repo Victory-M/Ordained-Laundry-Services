@@ -1,25 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600;700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Signika', sans-serif;
 }
-body{
-   background-color: #eee;
+
+body {
+  background-color: #eee;
 }
-a{
+
+a {
   text-decoration: none;
 }
-ul{
+
+ul {
   list-style: none;
 }
-.btn{
-  padding: 0.7rem 1rem ;
+
+.btn {
+  padding: 0.7rem 1rem;
   border-radius: 1.5rem;
-  border: none ;
-  background-color:#c71585 ;
+  border: none;
   font-family: cursive;
   color: #fff;
 }
